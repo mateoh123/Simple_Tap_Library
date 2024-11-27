@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  border: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #8a9fbf;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation_sidebar {
+  display: flex;
+  justify-content: center;
+  background-color: #1a375c;
+}
+
+.navigation_sidebar a {
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 20px;
+  color: white;
+}
+
+.navigation_sidebar a:hover {
+  background-color: #708db8;
+}
+
+.main_header {
+  text-align: center;
+  color: white;
+}
+
+.image_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
+  background-color: #1a375c;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  font-size: 30px;
+}
+
+#footer_V2 {
+  background-color: #1a375c;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  font-size: 30px;
+}
+
+.causes_container {
+  flex-direction: column;
+  display: block;
+  float: right;
+  padding: 1%;
+  background-color: #8a9fbf;
+}
+
+.words_container {
+  color: white;
+  padding: 1%;
+  background-color: #2d5a9d;
+}
+
+.causes_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.box_one {
+  background-color: #1a375c;
+  height: 100%;
+  padding: 5%;
+}
+
+.box_two {
+  background-color: #8a9fbf;
+  height: 100%;
+  padding: 5%;
+}
+
+.box_three {
+  background-color: #1a375c;
+  height: 100%;
+  padding: 5%;
+}
+
+.wrapper {
+  margin: 1%;
+}
+
+.white_words {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+details {
+  font-size: 18px;
+  margin: 1%;
+}
+
+summary {
+  font-size: 40px;
+  padding: 1%;
+  font-weight: bold;
+  color: #fff;
+  background: #0b486b;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.accordian_words {
+  padding: 1%;
+  background: #c2e9ff;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
